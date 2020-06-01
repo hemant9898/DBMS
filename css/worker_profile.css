@@ -1,0 +1,158 @@
+#container1{
+  background: linear-gradient(white,pink);
+  color:black;
+  height:80%;
+  width:25%;
+  float:left;
+  padding:50px;
+  font-family:tahoma;
+}
+       #image_sec{
+         background: linear-gradient(white,purple);
+         height: 120px;
+         width:120px;
+         border-radius: 50%;
+         margin-left: 20%;
+        background: black;
+       }
+       #img{
+         max-width: 100%;
+         max-height: 100%;
+         border-radius: 50%;
+       }
+#container2{
+  background: linear-gradient(white,grey);
+  color:red;
+  height:80%;
+  width:73%;
+  float:right;
+}
+#hdd1{
+  padding: 20px;
+  background: #2c2b2a;
+  color:white;
+  font-family: tahoma;
+   padding-left:150px;
+}
+#l1{
+  padding-left: 80px;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -30px;
+    left: calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.profile p{
+    margin: 0;
+    padding: 0;
+    font-family:tahoma;
+
+}
+
+.profile input{
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-style: ridge;
+    border-width:1px;
+}
+
+
+.profile{
+    width: 50%;
+    height: 80%;
+    background: #d8d8d8;
+    align:center;
+
+    color: black;
+    top: 50%;
+    left:60%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 40px;
+
+}
+
+#btn1{
+  background:#2c2b2a;
+  padding:3px;
+  border-style: ridge;
+  border-radius: 2px;
+  color:white;
+  font-family: tahoma;
+
+}
+button:hover{
+  background: black;
+  color:blue;
+
+}
+#li{
+  width:100px;
+}
+.profile input[type="text"]
+{
+
+    background: transparent;
+    outline: 1px;;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+    border-style: ridge;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+
+#select1{
+
+  background: transparent;
+  color:darkgrey;
+  width:90px;
+  font-family: tahoma;
+  height:25px;
+  border-radius: 2px;
+  cursor: pointer;
+
+}
+
+
+.profile a{
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 20px;
+    color: white;
+}
+
+.profile a:hover
+{
+    color: #ffc107;
+}
+a{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: bold;
+    font-family: script;
+
+    color: white;
+}
+footer#main-footer {
+  margin-top: 40%;
+  padding:20px;
+  height:60px;
+  background: #000;
+  color: #fff; }
